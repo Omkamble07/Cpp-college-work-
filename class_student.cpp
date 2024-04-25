@@ -35,8 +35,6 @@ int main()
 	{
 		s[i].get();
 	}
-	cout<<"____________________________"<<endl;
-	cout<<"name\t prn\t roll number"<<endl;
     for(i=0;i<n;i++)
     {
     	s[i].display();
@@ -46,7 +44,9 @@ int main()
 
 void student::display()
 {   
+    
+	cout<<"____________________________"<<endl;
+	cout<<"name\t prn\t roll number"<<endl;
 	cout<<name<<setw(10)<<prn<<setw(10)<<roll<<endl;
+	
 }
-
-
